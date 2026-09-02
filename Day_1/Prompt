@@ -1,0 +1,170 @@
+Structured Prompt 
+Role- Act as a senior functional tester.
+Context- We are testing the search module of an online flight booking application.
+Task- Generate automation test cases for the search section.
+Input- Search a flight by entering from and to city location, Departure date, Number of Passengers, the travel class and allow the user to select one flight
+Constraints: Include only functional, negative and boundary test cases. Exclude performance, API and security testing
+Output- Provide the result in a table format with rows as Test Case Id, Scenarios, Steps, Test Data and Expected Result 
+
+Zero-Short Prompting-
+Generate automation test case for an online flight booking application where the users can select one flight by entering from and to city locations, Departure date, Number of Passengers and the travel class
+
+One-Short Prompting- 
+Generate boundary testcases for the search field that accepts from and to city location, Departure date, Number of Passengers, the travel class and allow the user to select one flight 
+Example-
+1. verify flight search by valid from and to city location, Departure date, Number of Passengers, the travel class
+Output= Available flights in the desired location is displayed
+
+Two-Short Prompting- 
+Generate boundary testcases for the search field that accepts from and to city location, Departure date, Number of Passengers, the travel class and allow the user to select one flight 
+Example-
+1. verify flight search by valid from and to city location, Departure date, Number of Passengers, the travel class
+Output= Available flights in the desired location is displayed
+2. verify flight search by invalid from and to city location, Departure date, Number of Passengers, the travel class
+Output= Available flights in different location is displayed
+
+Few-Short Prompting- 
+Generate boundary testcases for the search field that accepts from and to city location, Departure date, Number of Passengers, the travel class and allow the user to select one flight 
+Example-
+1. verify flight search by valid from and to city location, Departure date, Number of Passengers, the travel class
+Output= Available flights in the desired location is displayed
+2. verify flight search by invalid from and to city location, Departure date, Number of Passengers, the travel class
+Output= Available flights in different location is displayed
+3. verify flight search by invalid from and to city location, invalid Departure date, valid Number of Passengers and the travel class
+Output= Available flights in different location and date is displayed
+
+Chain-Of-Thought 
+Analyse the following flight-search requirement systematically:
+
+“A user should be able to search for flights by entering From City, To City, Departure Date, number of passengers, and travel class. The system should display available flights and allow the user to select one.”
+
+Analyse:
+1. all input fields and their validation requirements,
+2. positive and negative test conditions,
+3. boundary conditions,
+4. valid and invalid dates,
+5. passenger-count validation,
+6. travel-class selection,
+7. search-result validation,
+8. flight-selection functionality,
+9. possible application-state and synchronization considerations.
+
+Then provide:
+
+Most important test scenarios
+Positive test cases
+Negative test cases
+Boundary test cases
+Required test data
+Expected results
+Recommended automation approach
+
+Self-Consistency Prompting
+Act as a senior QA test engineer.
+
+Analyse the following requirement:
+
+“A user should be able to search for flights by entering From City, To City, Departure Date, number of passengers, and travel class. The system should display available flights and allow the user to select one.”
+
+Analyse the requirement from four possible perspectives:
+
+1. Input validation problems
+2. Date and passenger boundary conditions
+3.Search functionality and result validation
+4. Flight selection and application-state conditions
+
+For each perspective, identify possible test scenarios.
+
+Compare all identified scenarios and determine which test cases are most important based on:
+
+ Requirement coverage
+ Business importance
+ Risk
+ User impact
+
+Provide:
+
+ Most important test scenarios
+ Reason for selecting each scenario
+ Test data
+ Expected result
+ Priority
+ Recommended automation suitability
+
+
+
+Prompt Chaining
+
+Example: Flight Search Testing
+
+Prompt 1 — Requirement Analysis
+
+Analyse this requirement:
+
+“A user should be able to search for flights by entering From City, To City, Departure Date, number of passengers, and travel class. The system should display available flights and allow the user to select one.”
+
+Identify all functional requirements, user actions, input fields, validations, and expected system behaviour.
+
+Output:
+Functional requirements and user actions.
+
+Prompt 2 — Test Scenarios
+
+Using the identified requirements from Prompt 1, generate positive, negative, and boundary test scenarios for:
+
+• From City
+• To City
+• Departure Date
+• Number of Passengers
+• Travel Class
+• Search Results
+• Flight Selection
+
+Ensure that invalid inputs, missing inputs, boundary values, and important user flows are covered.
+
+Output:
+Complete list of test scenarios.
+
+Prompt 3 — Detailed Test Cases
+
+Using the test scenarios generated in Prompt 2, convert them into detailed test cases.
+
+Each test case should contain:
+
+1. Test Case ID
+2. Test Scenario
+3. Test Case Description
+4. Preconditions
+5. Test Steps
+6. Test Data
+7. Expected Result
+8. Priority
+9. Test Type
+
+Ensure that every functional requirement is covered by at least one test case.
+
+Output:
+Detailed test cases ready for review and execution.
+
+Prompt 4 — Automation Test Cases
+
+Using the approved test cases from Prompt 3, identify the test cases that are suitable for automation.
+
+For each selected test case, provide:
+
+1. Test Case ID
+2. Automation Objective
+3. Preconditions
+4. Test Data
+5. Automation Steps
+6. Expected Result
+7. Validation/Assertion Points
+8. Priority
+
+Keep the automation approach tool-independent and do not use any specific automation framework or programming language.
+
+Output:
+Tool-independent automation test cases that can later be implemented using the organization's preferred automation technology.
+
+
+
