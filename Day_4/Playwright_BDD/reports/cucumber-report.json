@@ -1,0 +1,413 @@
+[
+  {
+    "description": "  As a student\n  I want to register by providing my personal details\n  So that I can successfully submit my registration",
+    "elements": [
+      {
+        "description": "",
+        "id": "student-registration;successfully-register-a-student-with-valid-details-by-using-scenario-outline",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Successfully register a student with valid details by using Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4592197899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1889112600
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user is on the Student Registration page",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1008645599
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enters \"John Doe\", \"john.doe@example.com\", \"1234567890\", \"2000-01-01\", \"Mathematics\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:39"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 212582599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "selects Gender and Hobbies",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 23797599
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2689399
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the student registration should be successfully registered",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 703846100
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2411900
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-registration;successfully-register-a-student-with-valid-details",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Successfully register a student with valid details",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4670899899
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1648930400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the user is on the Student Registration page",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1039125000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user enters Name, Email, Mobile Number, Date of Birth, Subjects",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:15"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 166942799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "selects Gender and Hobbies",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 28581799
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1925699
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the student registration should be successfully registered",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1030682199
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2141499
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-registration;successfully-register-a-student-with-valid-details-by-using-scenario-outline",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Successfully register a student with valid details by using Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4007938699
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2375590899
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user is on the Student Registration page",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 391980400
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enters \"Sameer Kumar\", \"sameer.kumar@example.com\", \"1234567890\", \"2000-01-01\", \"Mathematics\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:39"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 315596100
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "selects Gender and Hobbies",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 27282699
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2355099
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the student registration should be successfully registered",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1321913399
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3607099
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "student-registration;successfully-register-a-student-with-valid-details-by-using-scenario-outline",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Successfully register a student with valid details by using Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2019955300
+            },
+            "keyword": "Before",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 781522400
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user is on the Student Registration page",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:8"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 176586500
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enters \"Samaira Khan\", \"samaira.khan@example.com\", \"1234567890\", \"2000-01-01\", \"Mathematics\"",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:39"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 275152300
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "selects Gender and Hobbies",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:21"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 7793499
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "clicks the submit button",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:27"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 382299
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the student registration should be successfully registered",
+            "match": {
+              "location": "features\\stepDefinitions\\StudentRegister.ts:32"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 446594000
+            },
+            "keyword": "After",
+            "hidden": true
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 1593700
+            },
+            "keyword": "After",
+            "hidden": true
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "student-registration",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Student Registration",
+    "tags": [],
+    "uri": "features\\Student_register.feature"
+  }
+]
